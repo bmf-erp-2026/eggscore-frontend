@@ -834,8 +834,8 @@ function loadOrders() {
 // Real backend config — same fill-in-the-placeholder pattern as the
 // ERP's Supabase values. The portal key only ever grants order/event
 // creation, never read access to anyone else's data — see auth.postgres.js.
-const BACKEND_URL = 'YOUR_RAILWAY_BACKEND_URL_HERE';
-const PORTAL_API_KEY = 'YOUR_PORTAL_API_KEY_HERE';
+const BACKEND_URL = 'https://ingenious-learning-production-b9b6.up.railway.app';
+const PORTAL_API_KEY = 'egs_f3f50dec2eb0893d5bc4ef108da8ddda772b26fda5ef92e6';
 
 async function saveOrder(order) {
   let backendSucceeded = false;
